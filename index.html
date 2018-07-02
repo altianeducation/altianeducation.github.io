@@ -33,11 +33,11 @@
         </button>
         <div class="collapse navbar-collapse" id="probootstrap-menu">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item active"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html"><strong>About the Program</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html"><strong>Alumni</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html"><strong>Student Application</strong></a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><strong>FAQ</strong></a></li>
           </ul>
         </div>
       </div>
@@ -45,18 +45,38 @@
     <!-- END nav -->
 
     <section class="probootstrap_cover_v3 overflow-hidden relative text-center" id="section-home">
-      <div class="overlay"></div>
-      <a class="ytp_player" data-property="{videoURL:'https://www.youtube.com/watch?v=YEsDpX-iz1U',containment:'#section-home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:20, stopAt:40, opacity:1, quality:'default'}"></a> 
+      <div id="fullScreenDiv">
+        <img src="index/intro.jpg" id="videosubstitute" alt="Full screen background video">
+        <div class="overlay"></div>    
+
+        <div id="videoDiv">       
+            <video preload="preload" id="video" autoplay="autoplay" loop="loop" muted >
+            <source src="images/video.mp4" type="video/mp4"></source>
+            </video> 
+            
+        </div>
+        <div id="messageBox"> 
+            <div>
+                <h1 class="heading mb-2 probootstrap-animate">The Pitt Pledge Program</h2>
+                <h3 class="lead mb-5 probootstrap-animate"><Strong>The University of Pittsburgh is revolutionizing student education financing. Scroll down to learn more about the program and how to get involved.<strong></h3>
+                <a href="#section-feature" class="scrolly button style2 down">More</a>
+                
+            </div>
+        </div>   
+    </div>
+      <!-- <div class="overlay"></div>
+
+      <a class="ytp_player" data-property="{videoURL:'https://www.youtube.com/watch?v=YEsDpX-iz1U',containment:'#section-home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:20, stopAt:40, opacity:1,useOnMobile:true, quality:'default'}"></a> 
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md">
             <h2 class="heading mb-2 probootstrap-animate">The Pitt Pledge Program</h2>
             <p class="lead mb-5 probootstrap-animate">The University of Pittsburgh is revolutionizing student education financing. Scroll down to learn more about the program and how to get involved.</p>
-            <p class="probootstrap-animate">
-               <footer>
+            <p class="probootstrap-animate"> -->
+               <!-- <footer>
             <a href="#section-feature" class="button style2 down">More</a>
           </footer>
-            </p>
+            </p> -->
           </div> 
 
         </div>
@@ -67,53 +87,64 @@
       </div> -->
     </section>
     <!-- END section -->
+    <br>
+    <br>
+    <br>
+    <br>
+
     
 
     <section class="probootstrap_section" id="section-feature">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-6 text-center mb-5 probootstrap-animate">
-            <h2>The Features</h2>
+            <h2>More Information</h2>
           </div>
         </div>
         <div class="row">
           
           <div class="col-md-3 col-sm-6 probootstrap-animate">
+            <br>
             <div class="media d-block text-center probootstrap-media">
-              <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_1.jpg" alt="Generic placeholder image">
+              <img class="mr-0 mb-3 w-50" src="images/three.png" alt="Generic placeholder image">
               <div class="media-body">
-                <h5 class="mt-3">Video Background</h5>
-                <p class="probootstrap_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <br>
+
+                <h5 class="mt-3">Students</h5>
+                <p class="probootstrap_font-14">Check out the about page, or click the arrow to apply for the program. Applicaitons are due on Septermber 16th.</p>
                 <p class="read-more"><a href="#"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 probootstrap-animate">
             <div class="media d-block text-center probootstrap-media">
-              <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_2.jpg" alt="Generic placeholder image">
+              <img class="mr-0 mb-3 w-50" src="images/four.png" alt="Generic placeholder image">
               <div class="media-body">
-                <h5 class="mt-3">Popup Image</h5>
-                <p class="probootstrap_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h5 class="mt-3">Alumni</h5>
+                <p class="probootstrap_font-14">Are you interested in becoming a mentor or donating to the program? Click the arrow below to find out more!</p>
                 <p class="read-more"><a href="#"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 probootstrap-animate">
             <div class="media d-block text-center probootstrap-media">
-              <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_3.jpg" alt="Generic placeholder image">
+              <img class="mr-0 mb-3 w-50" src="images/five.png" alt="Generic placeholder image">
               <div class="media-body">
-                <h5 class="mt-3">Testimonial</h5>
-                <p class="probootstrap_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <br>
+                <h5 class="mt-3">Faculty/Staff</h5>
+                <p class="probootstrap_font-14">Faculty and staff can help inform students about the program. Click the arrow below for an overview.</p>
                 <p class="read-more"><a href="#"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-sm-6 probootstrap-animate">
             <div class="media d-block text-center probootstrap-media">
-              <img class="mr-0 mb-3 w-50 img-fluid rounded-circle" src="assets/images/img_4.jpg" alt="Generic placeholder image">
+              <img class="mr-0 mb-3 w-50" src="images/six.png" alt="Generic placeholder image">
               <div class="media-body">
-                <h5 class="mt-3">Table Pricing</h5>
-                <p class="probootstrap_font-14">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <br>
+                <br>
+                <h5 class="mt-3">FAQ</h5>
+                <p class="probootstrap_font-14">Click the arrow below for the frequently asked questions about the Pitt Pledge Program.</p>
                 <p class="read-more"><a href="#"><span class="ion-ios-arrow-thin-right probootstrap_font-30"></span></a></p>
               </div>
             </div>
@@ -121,39 +152,37 @@
 
         </div>
       </div>
+      <footer><center><a href="#section-about" class="scrolly button style2 down">More</a></center></footer>
     </section>
     <!-- END section -->
   
-
-
-    
-
-
-    <section class="probootstrap-section-half d-md-flex" id="section-about">
-      <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(assets/images/img_2.jpg)"></div>
+<section class="probootstrap-section-half d-md-flex" id="section-about">
+      <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(images/one.jpg)"></div>
       <div class="probootstrap-text">
         <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInRight">
-          <h2 class="heading mb-4">About Us</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+          <h2 class="heading mb-4">Overview</h2>
+          <p>Student debt has become a national crisis that needs a better solution than lower interest rates. The University of Pittsburgh has committeed to a new, innovative method to tackle this crisis, the Pitt Pledge Program. The program will launch in October 2019. 
           <p><a href="single-page.html" class="btn btn-primary">Read More</a></p>
         </div>
       </div>
     </section>
     <section class="probootstrap-section-half d-md-flex">
-      <div class="probootstrap-image order-2 probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(assets/images/img_3.jpg)"></div>
+      <div class="probootstrap-image order-2 probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(images/two.jpg)"></div>
       <div class="probootstrap-text order-1">
         <div class="probootstrap-inner probootstrap-animate" data-animate-effect="fadeInLeft">
-          <h2 class="heading mb-4">Created with love</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-          <p><a href="single-page.html" class="btn btn-primary">Read More</a></p>
+          <h2 class="heading mb-4">A Message from Chancellor Gallagher</h2>
+          <p>“It’s not about making an institution bigger, or creating certain foundations or buildings, but it’s about helping other students enjoy what you enjoyed. This could go way beyond just living up to this obligation of yourself. My vision is that this becomes a powerful and positive experience. That this is not just an obligation, this is about creating opportunities."</p>
         </div>
       </div>
     </section>
     <!-- END section -->
 
-    <section class="probootstrap_section">
+    
+
+
+    
+
+    <!-- <section class="probootstrap_section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center mb-5 probootstrap-animate">
@@ -200,11 +229,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- END section -->
 
 
-    <footer class="probootstrap_section probootstrap-border-top">
+    <!-- <footer class="probootstrap_section probootstrap-border-top">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-3">
@@ -251,7 +280,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     
     <script src="assets/js/jquery.min.js"></script>
@@ -265,5 +294,20 @@
     <script src="assets/js/jquery.easing.1.3.js"></script>
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/scrolly.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function (){
+            Scrolly.init( 
+              { 
+                "selector" : "scrolly",
+                "speed"    : 1000,
+              } 
+            ); 
+        });
+  </script>
+
+    <!-- The Frame lib -->
+  
 	</body>
 </html>

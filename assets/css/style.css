@@ -1655,4 +1655,9 @@ html, body {
   overflow: hidden;
 }
 
+.probootstrap_section2 {
+  float: left;
+  width: 100%; }
+  .probootstrap_section.bg-light {
+    background: #ECECEC !important; }
 

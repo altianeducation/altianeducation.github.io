@@ -1656,6 +1656,7 @@ html, body {
 }
 
 .probootstrap_section2 {
+  padding: 2em 0;
   float: left;
   width: 100%; }
   .probootstrap_section.bg-light {

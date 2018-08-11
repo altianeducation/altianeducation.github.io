@@ -403,10 +403,18 @@
           height: inherit;
           padding: 7em 0; } }
 
+.probootstrap_cover_v3 {
+  position: relative;
+  height: 70vh;
+}
+
+.probootstrap_cover_v3 > .container > .row {
+  height: 70vh;
+}
+
 .probootstrap_cover,
 .probootstrap_cover_v1,
 .probootstrap_cover_v2,
-.probootstrap_cover_v3,
 .probootstrap_cover_v4 {
   position: relative;
   height: 95vh; }
@@ -415,7 +423,8 @@
     .probootstrap_cover_v1,
     .probootstrap_cover_v2,
     .probootstrap_cover_v3,
-    .probootstrap_cover_v4 {
+    .probootstrap_cover_v4,
+    .probootstrap_cover_v5 {
       height: inherit;
       text-align: center !important;
       padding: 6em 0; } }
@@ -423,12 +432,12 @@
   .probootstrap_cover_v1 > .container,
   .probootstrap_cover_v2 > .container,
   .probootstrap_cover_v3 > .container,
-  .probootstrap_cover_v4 > .container {
+  .probootstrap_cover_v4 > .container,
+  .probootstrap_cover_v5 > .container{
     position: relative; }
     .probootstrap_cover > .container > .row,
     .probootstrap_cover_v1 > .container > .row,
     .probootstrap_cover_v2 > .container > .row,
-    .probootstrap_cover_v3 > .container > .row,
     .probootstrap_cover_v4 > .container > .row {
       height: 95vh; }
       @media (max-width: 767px) {
@@ -436,14 +445,16 @@
         .probootstrap_cover_v1 > .container > .row,
         .probootstrap_cover_v2 > .container > .row,
         .probootstrap_cover_v3 > .container > .row,
-        .probootstrap_cover_v4 > .container > .row {
+        .probootstrap_cover_v4 > .container > .row,
+        .probootstrap_cover_v5 > .container > .row {
           height: inherit;
           padding: 6em 0; } }
   .probootstrap_cover .play,
   .probootstrap_cover_v1 .play,
   .probootstrap_cover_v2 .play,
   .probootstrap_cover_v3 .play,
-  .probootstrap_cover_v4 .play {
+  .probootstrap_cover_v4 .play,
+  .probootstrap_cover_v5 .play {
     width: 80px;
     height: 80px;
     display: inline-block;
@@ -458,7 +469,8 @@
     .probootstrap_cover_v1 .play:hover,
     .probootstrap_cover_v2 .play:hover,
     .probootstrap_cover_v3 .play:hover,
-    .probootstrap_cover_v4 .play:hover {
+    .probootstrap_cover_v4 .play:hover,
+    .probootstrap_cover_v5 .play:hover {
       -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2);
@@ -471,13 +483,16 @@
     .probootstrap_cover_v3 .play:active,
     .probootstrap_cover_v3 .play:focus,
     .probootstrap_cover_v4 .play:active,
-    .probootstrap_cover_v4 .play:focus {
+    .probootstrap_cover_v4 .play:focus,
+    .probootstrap_cover_v5 .play:active,
+    .probootstrap_cover_v5 .play:focus {
       outline: none; }
     .probootstrap_cover .play i,
     .probootstrap_cover_v1 .play i,
     .probootstrap_cover_v2 .play i,
     .probootstrap_cover_v3 .play i,
-    .probootstrap_cover_v4 .play i {
+    .probootstrap_cover_v4 .play i,
+    .probootstrap_cover_v5 .play i {
       font-size: 50px;
       position: absolute;
       top: 50%;
@@ -489,7 +504,8 @@
   .probootstrap_cover_v1 .heading,
   .probootstrap_cover_v2 .heading,
   .probootstrap_cover_v3 .heading,
-  .probootstrap_cover_v4 .heading {
+  .probootstrap_cover_v4 .heading,
+  .probootstrap_cover_v5 .heading {
     font-size: 62px;
     color: white;
     font-weight: 300;
@@ -500,13 +516,15 @@
       .probootstrap_cover_v1 .heading,
       .probootstrap_cover_v2 .heading,
       .probootstrap_cover_v3 .heading,
-      .probootstrap_cover_v4 .heading {
+      .probootstrap_cover_v4 .heading,
+      .probootstrap_cover_v5 .heading {
         font-size: 42px; } }
   .probootstrap_cover .sub-heading,
   .probootstrap_cover_v1 .sub-heading,
   .probootstrap_cover_v2 .sub-heading,
   .probootstrap_cover_v3 .sub-heading,
-  .probootstrap_cover_v4 .sub-heading {
+  .probootstrap_cover_v4 .sub-heading,
+  .probootstrap_cover_v5 .sub-heading {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
     max-width: 600px;
@@ -515,23 +533,27 @@
   .probootstrap_cover_v1.text-center .sub-heading,
   .probootstrap_cover_v2.text-center .sub-heading,
   .probootstrap_cover_v3.text-center .sub-heading,
-  .probootstrap_cover_v4.text-center .sub-heading {
+  .probootstrap_cover_v4.text-center .sub-heading,
+  .probootstrap_cover_v5.text-center .sub-heading {
     margin: 0 auto;
     float: none; }
   .probootstrap_cover.text-right .sub-heading,
   .probootstrap_cover_v1.text-right .sub-heading,
   .probootstrap_cover_v2.text-right .sub-heading,
   .probootstrap_cover_v3.text-right .sub-heading,
-  .probootstrap_cover_v4.text-right .sub-heading {
+  .probootstrap_cover_v4.text-right .sub-heading,
+  .probootstrap_cover_v5.text-right .sub-heading {
     float: right; }
   .probootstrap_cover.text-left .sub-heading,
   .probootstrap_cover_v1.text-left .sub-heading,
   .probootstrap_cover_v2.text-left .sub-heading,
   .probootstrap_cover_v3.text-left .sub-heading,
-  .probootstrap_cover_v4.text-left .sub-heading {
+  .probootstrap_cover_v4.text-left .sub-heading,
+  .probootstrap_cover_v5.text-left .sub-heading {
     float: left; }
 
-.probootstrap_cover_v3 .device-1 {
+.probootstrap_cover_v3 .device-1,
+.probootstrap_cover_v5 .device-1 {
   margin-top: -40%;
   max-width: 400px;
   left: 50%;
@@ -539,31 +561,37 @@
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
   @media (max-width: 991px) {
-    .probootstrap_cover_v3 .device-1 {
+    .probootstrap_cover_v3 .device-1,
+    .probootstrap_cover_v5 .device-1 {
       max-width: 100%; } }
   @media (max-width: 767px) {
-    .probootstrap_cover_v3 .device-1 {
+    .probootstrap_cover_v3 .device-1,
+    .probootstrap_cover_v5 .device-1 {
       max-width: 100%;
       position: relative;
       margin-top: 10%;
       margin-bottom: -100%; } }
 
-.probootstrap_cover_v3 .device-2 {
+.probootstrap_cover_v3 .device-2,
+.probootstrap_cover_v5 .device-2 {
   position: absolute;
   max-width: 400px;
   left: 50%;
   margin-top: -25%; }
   @media (max-width: 991px) {
-    .probootstrap_cover_v3 .device-2 {
+    .probootstrap_cover_v3 .device-2,
+    .probootstrap_cover_v5 .device-2 {
       max-width: 100%; } }
   @media (max-width: 767px) {
-    .probootstrap_cover_v3 .device-2 {
+    .probootstrap_cover_v3 .device-2,
+    .probootstrap_cover_v5 .device-2 {
       max-width: 100%;
       position: absolute;
       margin-top: 30%;
       margin-bottom: -100%; } }
 
-.probootstrap_cover_v3 .device-3 {
+.probootstrap_cover_v3 .device-3,
+.probootstrap_cover_v5 .device-3 {
   z-index: 3; }
 
 .probootstrap_cover_v4 {
@@ -1661,4 +1689,7 @@ html, body {
   width: 100%; }
   .probootstrap_section.bg-light {
     background: #ECECEC !important; }
+
+
+
 

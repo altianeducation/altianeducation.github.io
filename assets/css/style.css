@@ -1690,6 +1690,8 @@ html, body {
   .probootstrap_section.bg-light {
     background: #ECECEC !important; }
 
-
+#brand-image{
+  height: 125px;
+}
 
 

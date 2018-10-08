@@ -1329,6 +1329,17 @@ a {
     content: "";
     background: rgba(0, 0, 0, 0.4); }
 
+.probootstrap_navbar .nav-item2 > a {
+  border-radius: 30px;
+    background: #ffb81c;
+}
+    
+.probootstrap_navbar .nav-item2.active > a {
+  color: #FFF !important; }
+
+.probootstrap_navbar.scrolled .nav-item2.active > a {
+  color: #1C2957 !important; }
+
     
 .probootstrap_navbar .nav-item.active > a {
   color: #FFF !important; }

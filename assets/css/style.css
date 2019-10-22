@@ -1100,7 +1100,7 @@ a {
     .probootstrap_navbar .navbar-toggler i {
       font-size: 30px; }
   .probootstrap_navbar ul > li > a {
-    color: white !important; }
+    color: #fff !important; }
     .probootstrap_navbar ul > li > a.active {
       color: white !important; }
   .probootstrap_navbar ul > li.cta-btn > a > span {
@@ -1164,7 +1164,7 @@ a {
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .probootstrap_navbar.scrolled.probootstrap_scrolled-light {
-      background: #fff !important;
+      background: #003594 !important;
       -webkit-box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.15);
       -moz-box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.15);
       box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.15); }
@@ -1177,11 +1177,11 @@ a {
           padding-left: 0rem !important;
           padding-right: 0rem !important; } }
       .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li a {
-        color: #1C2957 !important; }
+        color: #fff !important; }
         .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li a:hover, .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li a:active, .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li a:focus {
-          color: #1C2957 !important; }
+          color: #ffb81c !important; }
         .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li a.active {
-          color: #1C2957 !important; }
+          color: #ffb81c !important; }
       .probootstrap_navbar.scrolled.probootstrap_scrolled-light ul li.cta-btn > a > span {
         border: none;
         background: #00CA4C;
@@ -1329,23 +1329,12 @@ a {
     content: "";
     background: rgba(0, 0, 0, 0.4); }
 
-.probootstrap_navbar .nav-item2 > a {
-  border-radius: 30px;
-    background: #ffb81c;
-}
-    
-.probootstrap_navbar .nav-item2.active > a {
-  color: #FFF !important; }
-
-.probootstrap_navbar.scrolled .nav-item2.active > a {
-  color: #1C2957 !important; }
-
     
 .probootstrap_navbar .nav-item.active > a {
   color: #FFF !important; }
 
 .probootstrap_navbar.scrolled .nav-item.active > a {
-  color: #1C2957 !important; }
+  color: #fff !important; }
 
 .probootstrap_cover_v3 p, .probootstrap_cover_v3 .lead {
   color: white; }
